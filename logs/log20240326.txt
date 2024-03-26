@@ -1,0 +1,536 @@
+2024-03-26T12:02:36.3460625+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2024-03-26T12:02:36.4112567+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2024-03-26T12:02:36.4131256+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2024-03-26T12:02:36.4142352+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2024-03-26T12:02:36.4936729+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.4，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2024-03-26T12:02:43.3897653+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2024-03-26T12:02:43.3908989+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2024-03-26T12:02:46.3979123+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2024-03-26T12:02:46.4711299+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2024-03-26T12:02:46.5012509+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2024-03-26T12:02:46.8692097+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ responded 200 in 2733.6259 ms
+
+2024-03-26T12:02:47.6881952+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4]
+
+2024-03-26T12:02:48.5703064+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/22630600 responded 200 in 1655.6689 ms
+
+2024-03-26T12:02:48.5768662+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/62378914 responded 304 in 1662.2348 ms
+
+2024-03-26T12:02:48.7872708+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/3979584 responded 304 in 1872.5773 ms
+
+2024-03-26T12:02:48.9616852+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/31341349 responded 200 in 2047.0307 ms
+
+2024-03-26T12:02:52.0908541+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/wp-runtime-1ad3a407ce56.js responded 200 in 5596.9143 ms
+
+2024-03-26T12:02:52.3693177+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/global-1e8b6cfe1b6c.css responded 200 in 5960.7753 ms
+
+2024-03-26T12:02:52.4881841+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2024-03-26T12:02:52.8898752+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/my_top_repositories responded 304 in 418.6339 ms
+
+2024-03-26T12:02:53.0214058+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 200 in 532.8319 ms
+
+2024-03-26T12:02:53.0384198+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/my_top_repositories responded 304 in 567.066 ms
+
+2024-03-26T12:02:53.0478329+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 304 in 576.5192 ms
+
+2024-03-26T12:02:53.1129016+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/58067660 responded 304 in 217.0992 ms
+
+2024-03-26T12:02:53.1169390+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/9429671 responded 304 in 221.2442 ms
+
+2024-03-26T12:02:53.4562667+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 304 in 405.159 ms
+
+2024-03-26T12:02:53.6322245+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_remote-form_dist_-39cc36-2367fdbe40c8.js responded 200 in 7122.7573 ms
+
+2024-03-26T12:02:53.9894659+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/conduit/for_you_feed responded 200 in 1518.1353 ms
+
+2024-03-26T12:02:54.0149213+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/conduit/filter responded 200 in 366.4173 ms
+
+2024-03-26T12:02:54.0477083+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.111.133, 185.199.110.133, 185.199.109.133]
+
+2024-03-26T12:02:54.3144619+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/62378914 responded 304 in 1418.6853 ms
+
+2024-03-26T12:02:54.3263332+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/2131270 responded 200 in 227.1129 ms
+
+2024-03-26T12:02:54.3762134+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/ui_packages_paths_index_ts-654469d743cd.js responded 200 in 1910.4013 ms
+
+2024-03-26T12:02:54.3832237+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/keyboard-shortcuts-dialog-48a8478d8ac2.js responded 200 in 7872.4467 ms
+
+2024-03-26T12:02:54.5629590+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/41550495 responded 200 in 463.7677 ms
+
+2024-03-26T12:02:54.5637245+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/153954657 responded 304 in 464.5486 ms
+
+2024-03-26T12:02:54.6271519+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/TremblingV5/DouTok/discussions/votes responded 200 in 473.3604 ms
+
+2024-03-26T12:02:54.7782080+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/58138461 responded 304 in 681.245 ms
+
+2024-03-26T12:02:54.7837460+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/4314092 responded 304 in 683.9989 ms
+
+2024-03-26T12:02:54.9788812+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/13629408 responded 200 in 879.4351 ms
+
+2024-03-26T12:02:54.9946635+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/209477 responded 304 in 894.2144 ms
+
+2024-03-26T12:02:55.0031926+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/43563921 responded 304 in 902.7488 ms
+
+2024-03-26T12:02:55.0470496+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/58138461 responded 304 in 946.1869 ms
+
+2024-03-26T12:02:55.0726848+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/33259379 responded 304 in 971.79 ms
+
+2024-03-26T12:02:55.1581214+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2024-03-26T12:02:55.3022106+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/17906559 responded 200 in 1202.5361 ms
+
+2024-03-26T12:02:55.3412309+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/76980829 responded 304 in 1241.1424 ms
+
+2024-03-26T12:02:55.3412355+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/1342004 responded 304 in 1240.4693 ms
+
+2024-03-26T12:02:55.3924169+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/57376114 responded 304 in 1294.6184 ms
+
+2024-03-26T12:02:55.4029026+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2024-03-26T12:02:55.6653290+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.109.154, 185.199.110.154, 185.199.108.154]
+
+2024-03-26T12:02:57.0092163+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 1445.0136 ms
+
+2024-03-26T12:02:57.2828347+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 1718.6198 ms
+
+2024-03-26T12:02:57.3238401+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5]
+
+2024-03-26T12:02:57.3339023+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1317.5862 ms
+
+2024-03-26T12:02:57.3339018+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1317.6177 ms
+
+2024-03-26T12:02:57.3872461+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1370.882 ms
+
+2024-03-26T12:02:57.7387629+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 1754.2667 ms
+
+2024-03-26T12:02:57.9718838+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.113.25]
+
+2024-03-26T12:02:58.5916254+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.22, 140.82.113.22]
+
+2024-03-26T12:03:02.1792339+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 538.3923 ms
+
+2024-03-26T12:03:02.3399617+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/_side-panels/user responded 200 in 685.904 ms
+
+2024-03-26T12:03:02.7855770+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/weiambt/feature_previews responded 200 in 398.8023 ms
+
+2024-03-26T12:03:03.2111334+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 823.0314 ms
+
+2024-03-26T12:03:04.7520018+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 513.9052 ms
+
+2024-03-26T12:03:04.7547548+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 517.266 ms
+
+2024-03-26T12:03:04.7631217+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 511.782 ms
+
+2024-03-26T12:03:05.0851870+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt responded 200 in 838.2634 ms
+
+2024-03-26T12:03:05.1845764+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 933.4675 ms
+
+2024-03-26T12:03:05.8887472+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt responded 200 in 737.2129 ms
+
+2024-03-26T12:03:06.1425455+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 937.6166 ms
+
+2024-03-26T12:03:06.3980256+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 501.5821 ms
+
+2024-03-26T12:03:06.5779590+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/weiambt.github.io/graphs/participation responded 200 in 439.664 ms
+
+2024-03-26T12:03:06.7028943+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 526.7846 ms
+
+2024-03-26T12:03:06.7257021+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/doccano/graphs/participation responded 200 in 585.7523 ms
+
+2024-03-26T12:03:06.7299618+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/CasRel/graphs/participation responded 200 in 586.9862 ms
+
+2024-03-26T12:03:06.7326116+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/ssm_crud/graphs/participation responded 200 in 591.7449 ms
+
+2024-03-26T12:03:06.7327311+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/gittest/graphs/participation responded 200 in 593.0936 ms
+
+2024-03-26T12:03:06.7361296+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/ssm_crud2/graphs/participation responded 200 in 595.0555 ms
+
+2024-03-26T12:03:06.7365760+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/codeforces-go/graphs/participation responded 200 in 596.485 ms
+
+2024-03-26T12:03:06.7380514+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/ssm_crud3/graphs/participation responded 200 in 597.1691 ms
+
+2024-03-26T12:03:06.7448966+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/HelloGit/graphs/participation responded 200 in 603.7295 ms
+
+2024-03-26T12:03:06.7449874+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/entity_extractor_by_ner/graphs/participation responded 200 in 605.433 ms
+
+2024-03-26T12:03:06.7479052+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/HelloWorld/graphs/participation responded 200 in 605.0082 ms
+
+2024-03-26T12:03:06.7491661+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/StudentManager/graphs/participation responded 200 in 606.1207 ms
+
+2024-03-26T12:03:06.7532350+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/rc4/graphs/participation responded 200 in 610.1869 ms
+
+2024-03-26T12:03:06.7557614+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/algorithm-study/graphs/participation responded 200 in 615.7724 ms
+
+2024-03-26T12:03:06.7566935+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/gridea/graphs/participation responded 200 in 613.9356 ms
+
+2024-03-26T12:03:09.2788116+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png responded 200 in 3355.0869 ms
+
+2024-03-26T12:03:12.3441694+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_primer_behaviors_dist_esm_-f047dc-99534d12fba9.js responded 200 in 6405.97 ms
+
+2024-03-26T12:03:13.0666661+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 603.7654 ms
+
+2024-03-26T12:03:13.2582118+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 817.5506 ms
+
+2024-03-26T12:03:13.3370586+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 873.8277 ms
+
+2024-03-26T12:03:13.9451047+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 307.1631 ms
+
+2024-03-26T12:03:14.0317665+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 419.5956 ms
+
+2024-03-26T12:03:14.1429356+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 505.3544 ms
+
+2024-03-26T12:03:14.6747511+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt responded 200 in 1042.0013 ms
+
+2024-03-26T12:03:15.4033037+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 429.7131 ms
+
+2024-03-26T12:03:15.4907532+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 516.8177 ms
+
+2024-03-26T12:03:15.5254795+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 594.5899 ms
+
+2024-03-26T12:03:16.8328501+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.113.25, 140.82.112.26]
+
+2024-03-26T12:03:25.1387371+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/doccano/doccano/issues/2339/hovercard responded 200 in 407.0054 ms
+
+2024-03-26T12:03:26.3972895+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 595.5318 ms
+
+2024-03-26T12:03:27.1294799+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 1328.1645 ms
+
+2024-03-26T12:03:27.7243464+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/62378914 responded 200 in 2580.3821 ms
+
+2024-03-26T12:03:30.3192787+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/stanleylsx/entity_extractor_by_ner/pull/69/hovercard responded 200 in 479.8155 ms
+
+2024-03-26T12:03:31.3085691+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 478.3958 ms
+
+2024-03-26T12:03:31.6209741+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.22, 140.82.112.22, 140.82.113.22]
+
+2024-03-26T12:03:39.5237091+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/doccano/hovercard responded 200 in 371.0328 ms
+
+2024-03-26T12:03:40.1504771+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/gittest/hovercard responded 200 in 366.0416 ms
+
+2024-03-26T12:03:40.7061259+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt/entity_extractor_by_ner/hovercard responded 200 in 372.0004 ms
+
+2024-03-26T12:03:45.1764490+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 140.82.114.4]
+
+2024-03-26T12:03:47.3034372+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 424.6628 ms
+
+2024-03-26T12:03:55.0760561+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.114.26, 140.82.113.25]
+
+2024-03-26T12:03:56.0536268+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 409.2745 ms
+
+2024-03-26T12:03:56.8063601+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt responded 200 in 1136.8714 ms
+
+2024-03-26T12:03:57.4365620+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 346.4896 ms
+
+2024-03-26T12:03:57.6064488+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 516.0574 ms
+
+2024-03-26T12:03:57.6465705+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 600.7 ms
+
+2024-03-26T12:04:00.0932705+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 430.2946 ms
+
+2024-03-26T12:04:00.2563720+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 564.7083 ms
+
+2024-03-26T12:04:00.7214284+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 417.0226 ms
+
+2024-03-26T12:04:00.7360083+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt responded 200 in 1047.1707 ms
+
+2024-03-26T12:04:00.8989222+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 594.3231 ms
+
+2024-03-26T12:04:03.6231864+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 412.3854 ms
+
+2024-03-26T12:04:03.7259712+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 514.8526 ms
+
+2024-03-26T12:04:03.7489328+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 597.5896 ms
+
+2024-03-26T12:04:05.0211654+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 407.3221 ms
+
+2024-03-26T12:04:05.2852919+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 670.4565 ms
+
+2024-03-26T12:04:07.8669734+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 400.7277 ms
+
+2024-03-26T12:04:08.0679734+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 600.9368 ms
+
+2024-03-26T12:04:11.8793579+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 395.7406 ms
+
+2024-03-26T12:04:12.7214258+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1236.9536 ms
+
+2024-03-26T12:04:21.2165238+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.114.22, 140.82.112.22]
+

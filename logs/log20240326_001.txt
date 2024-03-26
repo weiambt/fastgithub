@@ -1,0 +1,1694 @@
+2024-03-26T12:04:22.9550173+08:00 [WRN]
+FastGithub
+程序将自动关闭：系统已运行其它实例
+
+2024-03-26T12:05:38.2587254+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2024-03-26T12:05:38.3980860+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2024-03-26T12:05:38.4015313+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2024-03-26T12:05:38.4034688+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2024-03-26T12:05:38.4765912+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.4，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2024-03-26T12:05:51.6396644+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.111.133, 185.199.108.133, 185.199.109.133]
+
+2024-03-26T12:05:57.4837272+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.110.154, 185.199.109.154, 185.199.111.154]
+
+2024-03-26T12:05:58.2842890+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/weiambt responded 200 in 13019.5069 ms
+
+2024-03-26T12:06:00.9330043+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1487.4556 ms
+
+2024-03-26T12:06:01.4439826+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 1727.5584 ms
+
+2024-03-26T12:06:02.5500027+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166]
+
+2024-03-26T12:06:02.8368835+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 3120.5371 ms
+
+2024-03-26T12:06:05.1743691+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.112.21, 140.82.114.21]
+
+2024-03-26T12:06:05.9500671+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.6]
+
+2024-03-26T12:06:06.5564121+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.112.25]
+
+2024-03-26T12:06:09.3324855+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 10533.0338 ms
+
+2024-03-26T12:06:51.0524764+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.114.25, 140.82.112.25]
+
+2024-03-26T12:06:57.5397190+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 487.2767 ms
+
+2024-03-26T12:07:09.3412306+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2024-03-26T12:07:09.3430816+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2024-03-26T12:07:10.1263579+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dotnetcore/FastGithub responded 404 in 875.8684 ms
+
+2024-03-26T12:07:12.6004422+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/error-3138b3a0095a.css responded 200 in 2677.8004 ms
+
+2024-03-26T12:07:13.3083723+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/site-fe2057b57083.css responded 200 in 3385.8936 ms
+
+2024-03-26T12:07:13.7280201+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/x-023c3ca5e173.svg responded 200 in 234.3948 ms
+
+2024-03-26T12:07:13.7330678+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/facebook-de85282d23e6.svg responded 200 in 235.5052 ms
+
+2024-03-26T12:07:13.9670412+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 345.9711 ms
+
+2024-03-26T12:07:13.9670982+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/youtube-25bc21e924c8.svg responded 200 in 468.8568 ms
+
+2024-03-26T12:07:14.2015001+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/twitch-e576606a89a7.svg responded 200 in 702.6633 ms
+
+2024-03-26T12:07:14.2558025+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/linkedin-3c0ace8edb5f.svg responded 200 in 757.7986 ms
+
+2024-03-26T12:07:14.4392998+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-mark-9be88460eaa6.svg responded 200 in 940.3185 ms
+
+2024-03-26T12:07:14.4455878+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/tiktok-5d12d948d920.svg responded 200 in 946.6197 ms
+
+2024-03-26T12:07:19.2174850+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/mona-sans-d1bf285e9b9b.woff2 responded 200 in 9293.9406 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: The read operation failed, see inner exception.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+
+
+2024-03-26T12:07:19.2265895+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ responded 200 in 566.6723 ms
+
+2024-03-26T12:07:19.5473471+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 334.9644 ms
+
+2024-03-26T12:07:19.7676624+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/my_top_repositories responded 304 in 394.835 ms
+
+2024-03-26T12:07:19.9040577+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_search_parsing_parsing_ts-66d3416c7614.js responded 200 in 239.97 ms
+
+2024-03-26T12:07:19.9298181+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/changelog responded 200 in 542.6267 ms
+
+2024-03-26T12:07:19.9340111+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/my_top_repositories responded 304 in 548.6358 ms
+
+2024-03-26T12:07:19.9515149+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/conduit/filter responded 200 in 530.8549 ms
+
+2024-03-26T12:07:19.9516646+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 304 in 568.9018 ms
+
+2024-03-26T12:07:20.0243606+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 527.1285 ms
+
+2024-03-26T12:07:20.1363556+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_blackbird-parser_dist_blackbird_js-d04bdb7cd8d4.js responded 200 in 472.2912 ms
+
+2024-03-26T12:07:20.1623156+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/warm_blackbird_caches responded 200 in 504.4246 ms
+
+2024-03-26T12:07:20.3652618+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 304 in 407.9028 ms
+
+2024-03-26T12:07:20.4472433+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 781.7046 ms
+
+2024-03-26T12:07:20.4829215+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 816.6927 ms
+
+2024-03-26T12:07:20.5539352+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 882.8091 ms
+
+2024-03-26T12:07:20.6078176+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/custom_scopes responded 200 in 355.9364 ms
+
+2024-03-26T12:07:20.6091632+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/suggestions responded 200 in 356.3074 ms
+
+2024-03-26T12:07:20.6830982+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/conduit/for_you_feed responded 200 in 1297.727 ms
+
+2024-03-26T12:07:20.9148305+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/_graphql/GetSuggestedNavigationDestinations responded 200 in 661.4435 ms
+
+2024-03-26T12:07:20.9646726+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/custom_scopes responded 304 in 355.7038 ms
+
+2024-03-26T12:07:21.3415580+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/TremblingV5/DouTok/discussions/votes responded 200 in 472.5706 ms
+
+2024-03-26T12:07:21.5260780+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search responded 200 in 1042.8594 ms
+
+2024-03-26T12:07:21.9619450+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/152970 responded 200 in 1191.0559 ms
+
+2024-03-26T12:07:22.1666836+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 347.0582 ms
+
+2024-03-26T12:07:22.3290048+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 509.1865 ms
+
+2024-03-26T12:07:22.3623186+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/13393021 responded 200 in 3109.0111 ms
+
+2024-03-26T12:07:22.4715184+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search responded 200 in 902.5614 ms
+
+2024-03-26T12:07:22.5230215+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/18526640 responded 502 in 1752.1167 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: The read operation failed, see inner exception.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SslStream'.
+
+
+2024-03-26T12:07:22.5230215+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/59704711 responded 502 in 3269.6389 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2024-03-26T12:07:22.8215380+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/images/modules/search/mona-love.png responded 200 in 334.3265 ms
+
+2024-03-26T12:07:22.8631249+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/you-z01.png responded 302 in 354.1952 ms
+
+2024-03-26T12:07:22.8631362+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52.png responded 302 in 354.143 ms
+
+2024-03-26T12:07:22.8637578+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting.png responded 302 in 354.8679 ms
+
+2024-03-26T12:07:22.8637705+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/CoolPlayLin.png responded 302 in 354.5966 ms
+
+2024-03-26T12:07:22.8639122+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844.png responded 302 in 354.9713 ms
+
+2024-03-26T12:07:22.8665973+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror.png responded 302 in 357.5179 ms
+
+2024-03-26T12:07:22.8776863+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/creazyboyone.png responded 302 in 366.1633 ms
+
+2024-03-26T12:07:22.8776864+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 419.8981 ms
+
+2024-03-26T12:07:23.0346677+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dlyjb.png responded 302 in 523.0209 ms
+
+2024-03-26T12:07:23.0346677+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/mcq2473906672.png responded 302 in 523.1191 ms
+
+2024-03-26T12:07:23.0383856+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718.png responded 302 in 526.6165 ms
+
+2024-03-26T12:07:23.0901539+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/1523014 responded 200 in 221.0401 ms
+
+2024-03-26T12:07:23.3123116+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/26946961 responded 200 in 441.0768 ms
+
+2024-03-26T12:07:23.4210944+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/111741174 responded 200 in 553.8744 ms
+
+2024-03-26T12:07:23.5334974+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/70885697 responded 200 in 656.9314 ms
+
+2024-03-26T12:07:24.0281356+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/96709586 responded 200 in 1154.9417 ms
+
+2024-03-26T12:07:24.3102257+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/search-84276b0cc8dd.css responded 200 in 1830.4767 ms
+
+2024-03-26T12:07:24.3171421+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/14369275 responded 200 in 1442.259 ms
+
+2024-03-26T12:07:24.3590201+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/108441578 responded 200 in 1320.7607 ms
+
+2024-03-26T12:07:24.4794413+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/110273449 responded 200 in 1437.7051 ms
+
+2024-03-26T12:07:24.7640580+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 348.3952 ms
+
+2024-03-26T12:07:24.8787448+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/87042256 responded 200 in 1838.8434 ms
+
+2024-03-26T12:07:25.0723669+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Avatar_Avatar_js-node_modules_primer_react_lib-esm_-f50651-79e4be21f42c.js responded 200 in 2566.8292 ms
+
+2024-03-26T12:07:25.1762619+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/23612645 responded 200 in 2294.5836 ms
+
+2024-03-26T12:07:25.1865574+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/search-d47725ae596b.js responded 200 in 2682.2576 ms
+
+2024-03-26T12:07:25.8570141+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_CircleBadge_CircleBadge_js-node_modules_primer_reac-7ffe03-68fdcc1bf763.js responded 200 in 3349.7077 ms
+
+2024-03-26T12:07:26.3261491+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/custom_scopes responded 304 in 347.5039 ms
+
+2024-03-26T12:07:26.3379377+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/suggestions responded 200 in 359.2712 ms
+
+2024-03-26T12:07:26.5609507+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/_graphql/GetSuggestedNavigationDestinations responded 200 in 582.114 ms
+
+2024-03-26T12:07:26.6871016+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/custom_scopes responded 304 in 357.8408 ms
+
+2024-03-26T12:07:26.7930568+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/ui_packages_soft-nav_utils_ts-ui_packages_use-analytics_use-analytics_ts-ui_packages_use-veri-f5c395-bb8779bde83c.js responded 200 in 4285.7013 ms
+
+2024-03-26T12:07:29.7875174+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.112.21, 140.82.112.22]
+
+2024-03-26T12:07:36.6284406+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/blackbird-search-975b014c1e98.js responded 200 in 14121.0874 ms
+
+2024-03-26T12:07:37.2396861+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 200 in 367.2087 ms
+
+2024-03-26T12:07:37.2396936+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 200 in 368.3704 ms
+
+2024-03-26T12:07:37.2476876+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 200 in 377.1632 ms
+
+2024-03-26T12:07:37.2499897+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 200 in 377.6063 ms
+
+2024-03-26T12:07:37.2645133+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 200 in 392.1618 ms
+
+2024-03-26T12:07:37.2723891+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 200 in 401.0708 ms
+
+2024-03-26T12:07:37.2723844+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 200 in 399.2771 ms
+
+2024-03-26T12:07:37.2753944+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 200 in 402.985 ms
+
+2024-03-26T12:07:37.2873409+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 200 in 416.761 ms
+
+2024-03-26T12:07:37.3072757+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/sponsors/batch_deferred_sponsor_buttons responded 200 in 440.8426 ms
+
+2024-03-26T12:07:37.4564675+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 524.7962 ms
+
+2024-03-26T12:07:37.5209060+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/blackbird_count responded 200 in 651.2616 ms
+
+2024-03-26T12:07:37.6524578+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 642.8077 ms
+
+2024-03-26T12:07:37.7232250+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/funding_links responded 200 in 392.0955 ms
+
+2024-03-26T12:07:37.9022889+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 415.4316 ms
+
+2024-03-26T12:07:38.0535190+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 533.1406 ms
+
+2024-03-26T12:07:38.2591894+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1386.0061 ms
+
+2024-03-26T12:07:38.5426194+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub responded 200 in 1065.8666 ms
+
+2024-03-26T12:07:39.0115310+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 270.8151 ms
+
+2024-03-26T12:07:39.0847766+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 344.3155 ms
+
+2024-03-26T12:07:39.0929415+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub/tag-count responded 200 in 365.31 ms
+
+2024-03-26T12:07:39.0999249+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub/hovercards/citation/sidebar_partial responded 204 in 372.2 ms
+
+2024-03-26T12:07:39.1026447+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub/branch-count responded 200 in 375.3196 ms
+
+2024-03-26T12:07:39.1143173+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 387.7205 ms
+
+2024-03-26T12:07:39.1157340+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub/security/overall-count responded 200 in 388.8226 ms
+
+2024-03-26T12:07:39.1188707+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/588886909/watch_subscription responded 200 in 387.1294 ms
+
+2024-03-26T12:07:39.1270647+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub/used_by_list responded 200 in 399.2027 ms
+
+2024-03-26T12:07:39.1460867+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_decorators_js-node_modules_github_remote-form_-01f9fa-075cdbe1c5e3.js responded 200 in 562.6936 ms
+
+2024-03-26T12:07:39.1757397+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub/spoofed_commit_check/7ca54ff91d3758ff5339aac189cb951dfe9d7174 responded 200 in 448.0754 ms
+
+2024-03-26T12:07:39.2894572+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 584.9836 ms
+
+2024-03-26T12:07:39.5137377+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 405.6102 ms
+
+2024-03-26T12:07:39.8284352+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/110273449 responded 200 in 1210.7479 ms
+
+2024-03-26T12:07:40.0905263+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/repositories-704cd44e52d3.js responded 200 in 1507.136 ms
+
+2024-03-26T12:07:41.7443403+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/codespaces-1a8626dd714a.js responded 200 in 3161.6777 ms
+
+2024-03-26T12:07:46.9764901+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search responded 200 in 1201.3462 ms
+
+2024-03-26T12:07:47.1095901+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2024-03-26T12:07:47.1115410+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2024-03-26T12:07:47.1129291+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2024-03-26T12:07:47.1142749+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2024-03-26T12:07:47.1157948+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2024-03-26T12:07:47.1182099+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2024-03-26T12:07:47.2320346+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2024-03-26T12:07:47.2348525+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2024-03-26T12:07:47.7212757+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/sponsors/batch_deferred_sponsor_buttons responded 200 in 434.8598 ms
+
+2024-03-26T12:07:47.7591957+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 417.2724 ms
+
+2024-03-26T12:07:47.7893622+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.207.73.82]
+
+2024-03-26T12:07:47.8005414+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 508.4149 ms
+
+2024-03-26T12:07:47.8134700+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 521.4381 ms
+
+2024-03-26T12:07:47.8210430+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 528.9649 ms
+
+2024-03-26T12:07:47.8343406+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 541.6674 ms
+
+2024-03-26T12:07:47.8392315+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 419.3398 ms
+
+2024-03-26T12:07:47.8466306+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 530.7855 ms
+
+2024-03-26T12:07:47.8509046+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 558.3005 ms
+
+2024-03-26T12:07:47.8568889+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 567.1878 ms
+
+2024-03-26T12:07:47.8618440+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 569.2861 ms
+
+2024-03-26T12:07:47.8661317+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 572.9108 ms
+
+2024-03-26T12:07:47.8777899+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 587.1519 ms
+
+2024-03-26T12:07:47.9072059+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 615.0269 ms
+
+2024-03-26T12:07:47.9164885+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/suggestions responded 200 in 512.7346 ms
+
+2024-03-26T12:07:47.9181261+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/custom_scopes responded 304 in 514.8062 ms
+
+2024-03-26T12:07:48.0878812+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/blackbird_count responded 304 in 799.491 ms
+
+2024-03-26T12:07:48.1191119+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/funding_links responded 304 in 379.2815 ms
+
+2024-03-26T12:07:48.1901983+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/_graphql/GetSuggestedNavigationDestinations responded 200 in 786.2621 ms
+
+2024-03-26T12:07:48.2679948+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/custom_scopes responded 304 in 345.7513 ms
+
+2024-03-26T12:07:54.8234123+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win responded 200 in 1009.7775 ms
+
+2024-03-26T12:07:55.0944032+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/1523014 responded 200 in 220.7273 ms
+
+2024-03-26T12:07:55.2647690+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 260.0971 ms
+
+2024-03-26T12:07:55.3430717+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 338.8053 ms
+
+2024-03-26T12:07:55.3491240+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 361.2 ms
+
+2024-03-26T12:07:55.3562448+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/hovercards/citation/sidebar_partial responded 204 in 367.4076 ms
+
+2024-03-26T12:07:55.3766738+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/702303258/watch_subscription responded 200 in 379.0148 ms
+
+2024-03-26T12:07:55.3835370+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/tag-count responded 200 in 394.958 ms
+
+2024-03-26T12:07:55.3850808+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/branch-count responded 200 in 396.5021 ms
+
+2024-03-26T12:07:55.3905338+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/used_by_list responded 200 in 401.6535 ms
+
+2024-03-26T12:07:55.4027462+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/security/overall-count responded 200 in 414.8118 ms
+
+2024-03-26T12:07:55.4122961+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/spoofed_commit_check/4b3d2d894a7342d188011ae6d6627563647e1cc9 responded 200 in 423.4884 ms
+
+2024-03-26T12:07:55.5255371+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2024-03-26T12:07:55.5271008+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2024-03-26T12:07:55.5515458+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 587.9122 ms
+
+2024-03-26T12:07:55.8273847+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 405.9889 ms
+
+2024-03-26T12:07:59.3100192+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-c537341-b93616e2fc14.js responded 200 in 20727.3819 ms
+
+2024-03-26T12:07:59.7703005+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub/refs responded 200 in 371.3741 ms
+
+2024-03-26T12:07:59.7883465+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub/branch-count responded 304 in 385.7991 ms
+
+2024-03-26T12:07:59.7906203+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub/tree-commit-info/main responded 200 in 389.9829 ms
+
+2024-03-26T12:07:59.7906217+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub/overview-files/main responded 200 in 388.5487 ms
+
+2024-03-26T12:07:59.7932408+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub/recently-touched-branches responded 200 in 395.7428 ms
+
+2024-03-26T12:07:59.7952118+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub/tag-count responded 304 in 392.6075 ms
+
+2024-03-26T12:07:59.8040162+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/tree-commit-info/main responded 200 in 367.4513 ms
+
+2024-03-26T12:07:59.8171329+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/tag-count responded 304 in 380.0298 ms
+
+2024-03-26T12:07:59.8226950+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/refs responded 200 in 386.4769 ms
+
+2024-03-26T12:07:59.8233194+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/branch-count responded 304 in 386.2502 ms
+
+2024-03-26T12:07:59.8234011+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/2289182718/FastGithub/latest-commit/main responded 200 in 423.7281 ms
+
+2024-03-26T12:07:59.8292746+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/latest-commit/main responded 200 in 392.7978 ms
+
+2024-03-26T12:07:59.8603507+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/recently-touched-branches responded 200 in 424.1595 ms
+
+2024-03-26T12:07:59.8877736+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 407.6847 ms
+
+2024-03-26T12:07:59.9561599+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 519.7927 ms
+
+2024-03-26T12:07:59.9905708+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 589.3997 ms
+
+2024-03-26T12:08:00.2101574+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 423.3291 ms
+
+2024-03-26T12:08:00.2927630+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 416.9733 ms
+
+2024-03-26T12:08:00.3232065+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 513.9603 ms
+
+2024-03-26T12:08:00.7934613+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/1523014 responded 200 in 935.9197 ms
+
+2024-03-26T12:08:01.1566848+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/110273449 responded 200 in 1284.8198 ms
+
+2024-03-26T12:08:03.1334052+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5, 140.82.121.6]
+
+2024-03-26T12:08:03.9355490+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.114.26, 140.82.114.25]
+
+2024-03-26T12:08:44.7805484+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 266.9285 ms
+
+2024-03-26T12:08:45.0269843+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 513.8568 ms
+
+2024-03-26T12:09:00.6555206+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search responded 200 in 1259.8074 ms
+
+2024-03-26T12:09:01.4166248+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/sponsors/batch_deferred_sponsor_buttons responded 200 in 445.711 ms
+
+2024-03-26T12:09:01.4278473+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 419.4453 ms
+
+2024-03-26T12:09:01.5010365+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 527.3223 ms
+
+2024-03-26T12:09:01.5053715+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 531.0169 ms
+
+2024-03-26T12:09:01.5113103+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 536.9832 ms
+
+2024-03-26T12:09:01.5131743+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 537.7122 ms
+
+2024-03-26T12:09:01.5132109+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 539.8459 ms
+
+2024-03-26T12:09:01.5178643+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 544.5088 ms
+
+2024-03-26T12:09:01.5256557+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 550.054 ms
+
+2024-03-26T12:09:01.5257515+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 534.2152 ms
+
+2024-03-26T12:09:01.5390751+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 563.5838 ms
+
+2024-03-26T12:09:01.5414525+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 566.0115 ms
+
+2024-03-26T12:09:01.5949157+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/custom_scopes responded 304 in 507.2111 ms
+
+2024-03-26T12:09:01.5967959+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/suggestions responded 200 in 508.913 ms
+
+2024-03-26T12:09:01.7661366+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/blackbird_count responded 304 in 793.681 ms
+
+2024-03-26T12:09:01.7834602+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 807.7131 ms
+
+2024-03-26T12:09:01.8586200+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/funding_links responded 304 in 418.0622 ms
+
+2024-03-26T12:09:01.8824587+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/_graphql/GetSuggestedNavigationDestinations responded 200 in 793.9111 ms
+
+2024-03-26T12:09:01.9423981+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/custom_scopes responded 304 in 343.5075 ms
+
+2024-03-26T12:09:10.6561202+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub responded 200 in 1074.552 ms
+
+2024-03-26T12:09:11.2823466+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 349.8159 ms
+
+2024-03-26T12:09:11.2922709+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/sponsors_list responded 200 in 357.666 ms
+
+2024-03-26T12:09:11.2941128+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 336.9046 ms
+
+2024-03-26T12:09:11.2975393+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/refs responded 200 in 380.2431 ms
+
+2024-03-26T12:09:11.3123502+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/hovercards/citation/sidebar_partial responded 204 in 378.1833 ms
+
+2024-03-26T12:09:11.3123457+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/tree-commit-info/master responded 200 in 394.1763 ms
+
+2024-03-26T12:09:11.3124968+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/recently-touched-branches responded 200 in 395.5907 ms
+
+2024-03-26T12:09:11.3126269+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/branch-count responded 200 in 393.615 ms
+
+2024-03-26T12:09:11.3138234+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/funding_links responded 304 in 379.1726 ms
+
+2024-03-26T12:09:11.3251491+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/overview-files/master responded 200 in 406.3164 ms
+
+2024-03-26T12:09:11.3252151+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/tag-count responded 200 in 406.1706 ms
+
+2024-03-26T12:09:11.3270137+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/spoofed_commit_check/30dd96209eb9008242bfba717eed11e06108fb07 responded 200 in 392.8745 ms
+
+2024-03-26T12:09:11.3271087+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/sponsor_button responded 200 in 393.302 ms
+
+2024-03-26T12:09:11.3292366+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/used_by_list responded 200 in 394.567 ms
+
+2024-03-26T12:09:11.3292366+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/latest-commit/master responded 200 in 411.386 ms
+
+2024-03-26T12:09:11.3619214+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/security/overall-count responded 200 in 428.5984 ms
+
+2024-03-26T12:09:11.3859251+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 529.3968 ms
+
+2024-03-26T12:09:11.4973992+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/244853632/watch_subscription responded 200 in 556.4059 ms
+
+2024-03-26T12:09:11.6478716+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/14369275 responded 200 in 939.9288 ms
+
+2024-03-26T12:09:11.6840059+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/branch-count responded 304 in 368.6983 ms
+
+2024-03-26T12:09:11.6938040+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/tag-count responded 304 in 366.5143 ms
+
+2024-03-26T12:09:11.7150229+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 409.0338 ms
+
+2024-03-26T12:09:11.7307227+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 773.2517 ms
+
+2024-03-26T12:09:11.7486288+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/funding_links responded 304 in 375.8708 ms
+
+2024-03-26T12:09:11.7844477+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 440.3845 ms
+
+2024-03-26T12:09:11.9153468+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 997.0033 ms
+
+2024-03-26T12:09:12.2610565+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/17940898 responded 200 in 1553.0029 ms
+
+2024-03-26T12:09:12.4211099+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/14369275 responded 200 in 1713.1388 ms
+
+2024-03-26T12:09:12.4822088+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/14369275 responded 200 in 1101.3856 ms
+
+2024-03-26T12:09:13.4772207+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/33132228 responded 200 in 2769.1562 ms
+
+2024-03-26T12:09:18.8458313+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search responded 200 in 1054.0068 ms
+
+2024-03-26T12:09:19.3725824+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 360.8831 ms
+
+2024-03-26T12:09:19.5045820+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 345.5873 ms
+
+2024-03-26T12:09:19.5115575+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 352.5849 ms
+
+2024-03-26T12:09:19.5220170+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 365.5503 ms
+
+2024-03-26T12:09:19.5268437+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 368.2759 ms
+
+2024-03-26T12:09:19.5268483+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 368.6857 ms
+
+2024-03-26T12:09:19.5297931+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 372.2177 ms
+
+2024-03-26T12:09:19.5351965+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 377.625 ms
+
+2024-03-26T12:09:19.5789092+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 420.6958 ms
+
+2024-03-26T12:09:19.5851492+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/count responded 304 in 427.6142 ms
+
+2024-03-26T12:09:19.5878810+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/sponsors/batch_deferred_sponsor_buttons responded 200 in 434.1598 ms
+
+2024-03-26T12:09:19.5921560+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 415.4725 ms
+
+2024-03-26T12:09:19.6170830+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/custom_scopes responded 304 in 345.1738 ms
+
+2024-03-26T12:09:19.6191921+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/suggestions responded 200 in 346.9242 ms
+
+2024-03-26T12:09:19.7550055+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 596.1552 ms
+
+2024-03-26T12:09:19.7982574+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/blackbird_count responded 304 in 642.402 ms
+
+2024-03-26T12:09:19.9540419+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/_graphql/GetSuggestedNavigationDestinations responded 200 in 681.7523 ms
+
+2024-03-26T12:09:19.9675670+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search/custom_scopes responded 304 in 342.2967 ms
+
+2024-03-26T12:09:19.9757893+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/funding_links responded 304 in 368.5473 ms
+
+2024-03-26T12:09:24.6359471+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-ui_packages_show-dialog-on-load-element_show-dialog-on-load-element_ts-0a885215666e.js responded 200 in 13275.6333 ms
+
+2024-03-26T12:09:30.2621811+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.114.26, 140.82.113.25]
+
+2024-03-26T12:09:33.4109581+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/search responded 200 in 720.6217 ms
+
+2024-03-26T12:09:33.7904042+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 270.2933 ms
+
+2024-03-26T12:09:33.8532245+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/gendloop.png responded 302 in 374.4088 ms
+
+2024-03-26T12:09:33.9350120+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 415.6433 ms
+
+2024-03-26T12:09:34.0416316+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 533.9681 ms
+
+2024-03-26T12:09:34.0471127+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/sponsors/batch_deferred_sponsor_buttons responded 200 in 539.5955 ms
+
+2024-03-26T12:09:34.4503540+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/funding_links responded 304 in 382.024 ms
+
+2024-03-26T12:09:34.4549329+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/gendloop/fastgithub/funding_links responded 200 in 386.5289 ms
+
+2024-03-26T12:09:34.8548022+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1347.1373 ms
+
+2024-03-26T12:09:35.8387691+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/50388405 responded 200 in 1981.2397 ms
+
+2024-03-26T12:09:37.2612617+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar responded 200 in 1282.5138 ms
+
+2024-03-26T12:09:37.3686010+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+camo.githubusercontent.com->127.0.0.1
+
+2024-03-26T12:09:37.3707220+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+camo.githubusercontent.com->127.0.0.1
+
+2024-03-26T12:09:37.4684380+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/62378914 responded 304 in 245.7513 ms
+
+2024-03-26T12:09:37.6859887+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/raw/master/doc/index.png responded 302 in 414.8736 ms
+
+2024-03-26T12:09:38.0939654+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/branch-count responded 200 in 397.0643 ms
+
+2024-03-26T12:09:38.1422326+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/security/overall-count responded 200 in 445.7283 ms
+
+2024-03-26T12:09:38.1803467+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 412.7597 ms
+
+2024-03-26T12:09:38.2377846+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/tag-count responded 200 in 540.5472 ms
+
+2024-03-26T12:09:38.2534247+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/hovercards/citation/sidebar_partial responded 204 in 555.6622 ms
+
+2024-03-26T12:09:38.2698830+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 502.2537 ms
+
+2024-03-26T12:09:38.2793198+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/contributors_list responded 200 in 581.0974 ms
+
+2024-03-26T12:09:38.2933519+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/used_by_list responded 200 in 595.1475 ms
+
+2024-03-26T12:09:38.3124208+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/spoofed_commit_check/3b224a7252caf234c2dbec655213ccb839f5122f responded 200 in 614.7142 ms
+
+2024-03-26T12:09:38.3292949+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/raw/master/doc/avatar1.png responded 302 in 560.5809 ms
+
+2024-03-26T12:09:38.3334430+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/raw/master/doc/clone-before.png responded 302 in 564.6929 ms
+
+2024-03-26T12:09:38.3431517+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/raw/master/doc/avatar2.png responded 302 in 574.4645 ms
+
+2024-03-26T12:09:38.3520741+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/raw/master/doc/clone.png responded 302 in 580.3564 ms
+
+2024-03-26T12:09:38.3520836+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/raw/master/doc/download.png responded 302 in 580.3262 ms
+
+2024-03-26T12:09:38.3584272+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/raw/master/doc/download-before.png responded 302 in 586.6355 ms
+
+2024-03-26T12:09:38.3649766+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/raw/master/doc/speed.png responded 302 in 592.2177 ms
+
+2024-03-26T12:09:38.3673625+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/raw/master/doc/log.png responded 302 in 594.5109 ms
+
+2024-03-26T12:09:38.3805716+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/299584778/watch_subscription responded 200 in 554.563 ms
+
+2024-03-26T12:09:38.3896975+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 269.1307 ms
+
+2024-03-26T12:09:38.3920727+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/raw/master/doc/crt-error.png responded 302 in 619.265 ms
+
+2024-03-26T12:09:38.4622248+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/70885697 responded 200 in 1215.9213 ms
+
+2024-03-26T12:09:38.5024856+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/recently-touched-branches responded 200 in 384.4522 ms
+
+2024-03-26T12:09:38.5329483+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/refs responded 200 in 414.5221 ms
+
+2024-03-26T12:09:38.5432289+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 775.1123 ms
+
+2024-03-26T12:09:38.6408675+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 494.2571 ms
+
+2024-03-26T12:09:38.6440959+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/latest-commit/master responded 200 in 525.1263 ms
+
+2024-03-26T12:09:38.7088072+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/tree-commit-info/master responded 200 in 589.8234 ms
+
+2024-03-26T12:09:38.7120195+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/branch-count responded 304 in 590.496 ms
+
+2024-03-26T12:09:38.7172803+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/tag-count responded 304 in 477.8304 ms
+
+2024-03-26T12:09:38.7184203+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.111.133, 185.199.108.133, 185.199.109.133]
+
+2024-03-26T12:09:38.8499219+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/overview-files/master responded 200 in 728.6823 ms
+
+2024-03-26T12:09:39.0228422+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/1527893 responded 200 in 728.8844 ms
+
+2024-03-26T12:09:39.0773790+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/1687298 responded 200 in 783.8283 ms
+
+2024-03-26T12:09:39.0872351+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/docmirror/dev-sidecar/raw/master/doc/qq_group.png responded 302 in 1314.3261 ms
+
+2024-03-26T12:09:39.2698697+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/1527893 responded 200 in 593.2094 ms
+
+2024-03-26T12:09:39.4913210+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/32991121 responded 200 in 1196.6777 ms
+
+2024-03-26T12:09:39.8145242+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 958.7546 ms
+
+2024-03-26T12:09:40.3507285+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://camo.githubusercontent.com/3c7be1d5ddf6e258a5a4e2afbd8209fbbfdb444885717d36a610983ec766a58e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f646f636d6972726f722f6465762d736964656361723f6c6f676f3d676974687562 responded 200 in 2766.4189 ms
+
+2024-03-26T12:09:41.6288256+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://camo.githubusercontent.com/6db231005df9e21b4006123637fa126726529de492f34266702bdf6197ec3c69/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d61696e7461696e6564253230776974682d6c65726e612d6363303066662e737667 responded 200 in 3854.4628 ms
+
+2024-03-26T12:09:42.0587673+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 267.6 ms
+
+2024-03-26T12:09:42.1351787+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 345.984 ms
+
+2024-03-26T12:09:42.1994216+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 410.3926 ms
+
+2024-03-26T12:09:42.3772899+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 598.4896 ms
+
+2024-03-26T12:09:49.6456029+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 310.4089 ms
+
+2024-03-26T12:09:49.7440103+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 409.4952 ms
+
+2024-03-26T12:09:51.4640243+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.207.73.82, 140.82.113.3]
+
+2024-03-26T12:09:53.3842697+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub responded 200 in 1026.8219 ms
+
+2024-03-26T12:09:54.1209268+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/hovercards/citation/sidebar_partial responded 204 in 373.8769 ms
+
+2024-03-26T12:09:54.1209677+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/funding_links responded 304 in 375.1199 ms
+
+2024-03-26T12:09:54.1212062+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/spoofed_commit_check/30dd96209eb9008242bfba717eed11e06108fb07 responded 304 in 374.2455 ms
+
+2024-03-26T12:09:54.1333965+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/tag-count responded 304 in 386.452 ms
+
+2024-03-26T12:09:54.1333992+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/sponsor_button responded 304 in 387.5911 ms
+
+2024-03-26T12:09:54.1335380+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/branch-count responded 304 in 387.16 ms
+
+2024-03-26T12:09:54.1449318+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/sponsors_list responded 304 in 397.6203 ms
+
+2024-03-26T12:09:54.1564108+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/used_by_list responded 200 in 409.0559 ms
+
+2024-03-26T12:09:54.2240394+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 275.0378 ms
+
+2024-03-26T12:09:54.2807486+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/latest-commit/master responded 304 in 402.6688 ms
+
+2024-03-26T12:09:54.2808010+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/overview-files/master responded 200 in 400.9686 ms
+
+2024-03-26T12:09:54.2994000+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/tree-commit-info/master responded 304 in 421.2904 ms
+
+2024-03-26T12:09:54.3025096+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/recently-touched-branches responded 304 in 425.1691 ms
+
+2024-03-26T12:09:54.4425998+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 528.7709 ms
+
+2024-03-26T12:09:54.4753131+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 548.4271 ms
+
+2024-03-26T12:09:54.5075573+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/branch-count responded 304 in 365.6564 ms
+
+2024-03-26T12:09:54.5241633+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/tag-count responded 304 in 386.9683 ms
+
+2024-03-26T12:09:54.5242952+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/RC1844/FastGithub/funding_links responded 304 in 379.7929 ms
+
+2024-03-26T12:09:54.5533649+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 412.9013 ms
+
+2024-03-26T12:09:54.5829041+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 703.9036 ms
+
+2024-03-26T12:09:54.8413871+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 538.871 ms
+
+2024-03-26T12:09:56.9958152+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub responded 200 in 1094.6948 ms
+
+2024-03-26T12:09:57.4053029+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/26946961 responded 200 in 219.7077 ms
+
+2024-03-26T12:09:57.5328116+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 418.1304 ms
+
+2024-03-26T12:09:57.5628536+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub/tag-count responded 200 in 370.0261 ms
+
+2024-03-26T12:09:57.5629748+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/244853632/watch_subscription responded 200 in 385.013 ms
+
+2024-03-26T12:09:57.5643830+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub/hovercards/citation/sidebar_partial responded 204 in 371.4511 ms
+
+2024-03-26T12:09:57.5690161+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 351.2637 ms
+
+2024-03-26T12:09:57.5691056+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub/spoofed_commit_check/f89952dd180790a26b955abe370ae13f703c6580 responded 200 in 376.2461 ms
+
+2024-03-26T12:09:57.5759565+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub/used_by_list responded 200 in 382.7128 ms
+
+2024-03-26T12:09:57.5857640+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub/branch-count responded 200 in 393.2469 ms
+
+2024-03-26T12:09:57.5954637+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub/security/overall-count responded 200 in 405.0421 ms
+
+2024-03-26T12:09:57.6531625+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 537.9621 ms
+
+2024-03-26T12:09:57.8350359+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 301.1136 ms
+
+2024-03-26T12:09:57.8951323+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub/recently-touched-branches responded 200 in 365.3292 ms
+
+2024-03-26T12:09:57.9063723+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub/refs responded 200 in 376.5361 ms
+
+2024-03-26T12:09:57.9063783+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub/latest-commit/master responded 200 in 374.9901 ms
+
+2024-03-26T12:09:57.9334146+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub/overview-files/master responded 200 in 398.2463 ms
+
+2024-03-26T12:09:57.9372651+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub/tree-commit-info/master responded 200 in 405.8234 ms
+
+2024-03-26T12:09:57.9494593+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub/tag-count responded 304 in 384.9196 ms
+
+2024-03-26T12:09:57.9730839+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/shiftwinting/FastGithub/branch-count responded 304 in 384.9346 ms
+
+2024-03-26T12:09:57.9950133+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 269.1571 ms
+
+2024-03-26T12:09:58.1487171+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/8308014 responded 200 in 222.6311 ms
+
+2024-03-26T12:09:58.2041110+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 508.7381 ms
+
+2024-03-26T12:09:58.2108219+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 533.8561 ms
+
+2024-03-26T12:09:58.2390059+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 299.765 ms
+
+2024-03-26T12:09:59.2210506+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 1308.6662 ms
+
+2024-03-26T12:10:02.1741530+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 301.6045 ms
+
+2024-03-26T12:10:02.2808869+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/377398510/watch_subscription responded 200 in 378.2537 ms
+
+2024-03-26T12:10:02.2908681+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 418.5178 ms
+
+2024-03-26T12:10:02.3184160+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 359.6804 ms
+
+2024-03-26T12:10:09.1543610+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 302.1679 ms
+
+2024-03-26T12:10:09.2531914+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 401.2769 ms
+
+2024-03-26T12:10:09.9532463+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 302.4144 ms
+
+2024-03-26T12:10:10.0476729+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 401.1338 ms
+
+2024-03-26T12:10:10.3748878+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 314.5209 ms
+
+2024-03-26T12:10:10.4665252+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 409.314 ms
+
+2024-03-26T12:10:14.4758562+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win responded 200 in 1025.1793 ms
+
+2024-03-26T12:10:14.9859296+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 266.5373 ms
+
+2024-03-26T12:10:15.0144238+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 346.3795 ms
+
+2024-03-26T12:10:15.0239783+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/tree-commit-info/main responded 304 in 367.8545 ms
+
+2024-03-26T12:10:15.0277284+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/hovercards/citation/sidebar_partial responded 204 in 357.8286 ms
+
+2024-03-26T12:10:15.0332504+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/tag-count responded 304 in 376.3704 ms
+
+2024-03-26T12:10:15.0334018+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/recently-touched-branches responded 304 in 379.34 ms
+
+2024-03-26T12:10:15.0631300+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/branch-count responded 304 in 406.4339 ms
+
+2024-03-26T12:10:15.0700782+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 351.5107 ms
+
+2024-03-26T12:10:15.0849485+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/702303258/watch_subscription responded 200 in 389.4551 ms
+
+2024-03-26T12:10:15.0882695+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/used_by_list responded 200 in 418.4287 ms
+
+2024-03-26T12:10:15.0951142+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/spoofed_commit_check/4b3d2d894a7342d188011ae6d6627563647e1cc9 responded 304 in 425.3713 ms
+
+2024-03-26T12:10:15.1912621+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 535.0564 ms
+
+2024-03-26T12:10:15.4071620+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/tag-count responded 304 in 369.5324 ms
+
+2024-03-26T12:10:15.4301505+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ylong52/fastgithub_win/branch-count responded 304 in 364.4016 ms
+
+2024-03-26T12:10:15.7518605+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1142.6805 ms
+
+2024-03-26T12:10:50.6452676+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.108.133]
+
+2024-03-26T12:10:50.6467208+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.108.133]
+
+2024-03-26T12:10:58.4827941+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.108.154, 185.199.109.154, 185.199.110.154]
+
+2024-03-26T12:11:05.7664405+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.113.22, 140.82.112.21]
+
+2024-03-26T12:11:07.0720891+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.6, 140.82.121.5]
+
+2024-03-26T12:11:07.9033930+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.114.26, 140.82.114.25]
+
+2024-03-26T12:11:16.3212335+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2024-03-26T12:11:16.3237395+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2024-03-26T12:11:16.7107052+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 490.4078 ms
+
+2024-03-26T12:11:17.0520468+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 830.4469 ms
+
